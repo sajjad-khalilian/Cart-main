@@ -1,0 +1,62 @@
+.container{
+    display: flex;
+    align-items: flex-start;
+    min-height: 500px;
+    width: 100%;
+}
+.container img{
+    width: 300px;
+    background-color: white;
+    padding: 15px 25px;
+    border: 2px dashed red;
+    border-radius: 50px;
+    margin-right: 50px;
+}
+.info{
+    width: 100%;
+    border: 2px dashed gainsboro;
+    padding: 25px;
+    border-radius: 50px;
+}
+.info h3{
+    color: orange;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.description{
+    color: gray;
+    width: 500px;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    line-height: 20px;
+}
+.category{
+    margin-bottom: 20px;
+}
+.category svg,
+.price svg
+{
+    color: orange;
+    font-size: 1.5rem;
+    margin-right: 7px;
+    position: relative;
+    top: 8px;
+}
+.info div{
+    display: flex;
+    justify-content: space-between;
+}
+.info a{
+    display: flex;
+    align-items: center;
+    background-color: orange;
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+.info a svg{
+    margin-right: 10px;
+    font-size: 1.5rem;
+}

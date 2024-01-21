@@ -1,0 +1,30 @@
+.sidebar{
+    background-color: white;
+    width: 200px;
+    height: fit-content;
+    padding: 20px;
+    margin-left: 20px;
+    border: 2px dashed red;
+    border-radius: 20px;
+}
+.sidebar div{
+    width: 200px;
+    color: red;
+    font-weight: 500;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+.sidebar li{
+    list-style: none;
+    cursor: pointer;
+    height: 30px;
+    line-height: 30px;
+}
+.sidebar li:hover{
+    color: #ff9292;
+}
+.sidebar svg{
+    font-size: 1.5rem;
+    margin-right: 5px;
+}

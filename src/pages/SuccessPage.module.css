@@ -1,0 +1,12 @@
+.text{
+    display: flex;
+    justify-content: center;
+}
+.text p{
+    font-size: 1.7rem;
+    background-color: #ffbfbf;
+    width: 40%;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
